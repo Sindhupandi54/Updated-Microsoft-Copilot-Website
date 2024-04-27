@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Apparel Company</title>
+    <style>
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 24px;
+        }
+        /* Product tile styles */
+        .product-tile {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        .product-tile img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product-title {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .product-price {
+            color: #333; /* Increased contrast for better readability */
+        }
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        /* Accessibility styles */
+        a {
+            color: #fff; /* Increased contrast for better readability */
+            text-decoration: none;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>E-Commerce Apparel Company</h1>
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#">Products</a> |
+            <a href="#">Profile</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="product-tile">
+                <img src="product1.jpg" alt="Product 1">
+                <div class="product-title">Product 1</div>
+                <div class="product-price">$49.99</div>
+            </div>
+            <div class="product-tile">
+                <img src="product2.jpg" alt="Product 2">
+                <div class="product-title">Product 2</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-tile">
+                <img src="product3.jpg" alt="Product 3">
+                <div class="product-title">Product 3</div>
+                <div class="product-price">$59.99</div>
+            </div>
+        </div>
+        <!-- Repeat similar structure for the next row of product tiles -->
+        <!-- Repeat similar structure for the third row of product tiles -->
+    </div>
+    <footer>
+        <p>© 2023 E-Commerce Apparel Company</p>
+        <form>
+            <h2>Contact Us</h2>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Name">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </footer>
+</body>
+</html>
